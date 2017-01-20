@@ -27,6 +27,7 @@ Pagenumber <- function(textFileConten) {
     qnewassq[2]<-(strsplit(gsub("[^0-9]", " ",qnewassq[2])," ")[[1]])[1]
     newassq<-qnewassq
     
+    
     newassq<-as.numeric(newassq)
     if(!is.na(newassq[1]))
     {
